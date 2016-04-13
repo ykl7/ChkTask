@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hVK-w5-gXK">
+                                <rect key="frame" x="38" y="82" width="43" height="30"/>
+                                <state key="normal" title="Final 1">
+                                    <color key="titleColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F7U-J2-alZ">
+                                <rect key="frame" x="211" y="167" width="45" height="30"/>
+                                <state key="normal" title="Final 2">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HEO-NP-2Wp">
+                                <rect key="frame" x="62" y="306" width="46" height="30"/>
+                                <state key="normal" title="Final 3">
+                                    <color key="titleColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="okq-9f-hje">
+                                <rect key="frame" x="209" y="495" width="46" height="30"/>
+                                <state key="normal" title="Final 4">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VMw-r8-c8r">
+                                <rect key="frame" x="37" y="441" width="43" height="30"/>
+                                <color key="backgroundColor" red="0.84313725490196079" green="0.45490196078431372" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Soo-mH-UrB">
+                                <rect key="frame" x="37" y="201" width="43" height="30"/>
+                                <color key="backgroundColor" red="0.84313725490000002" green="0.6010381711409396" blue="0.55888213087248317" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TQY-di-kvG">
+                                <rect key="frame" x="230" y="65" width="43" height="30"/>
+                                <color key="backgroundColor" red="0.84313725490196079" green="0.81784815436241609" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tbc-BR-fbo">
+                                <rect key="frame" x="139" y="378" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iVy-kq-axj">
+                                <rect key="frame" x="245" y="334" width="43" height="30"/>
+                                <color key="backgroundColor" red="0.33237206375838924" green="0.4549019608" blue="0.20392156859999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="tbc-BR-fbo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="M1c-ep-hGs"/>
+                            <constraint firstItem="tbc-BR-fbo" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="119" id="WkM-r3-Wg2"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="tbc-BR-fbo" secondAttribute="trailing" constant="119" id="kcI-kf-b3B"/>
+                            <constraint firstItem="tbc-BR-fbo" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="nHu-ON-VTM"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="btnFour" destination="okq-9f-hje" id="LN7-aQ-AwK"/>
+                        <outlet property="btnOne" destination="hVK-w5-gXK" id="Kvm-Sj-d5C"/>
+                        <outlet property="btnThree" destination="HEO-NP-2Wp" id="b6v-JG-bHf"/>
+                        <outlet property="btnTwo" destination="F7U-J2-alZ" id="ssa-5G-f7e"/>
+                        <outlet property="finishLabel" destination="tbc-BR-fbo" id="O6z-5z-Xd5"/>
+                        <outlet property="viewFour" destination="TQY-di-kvG" id="i0a-Sg-Txa"/>
+                        <outlet property="viewOne" destination="VMw-r8-c8r" id="Uqv-yR-lKF"/>
+                        <outlet property="viewThree" destination="iVy-kq-axj" id="fDx-Ix-kgv"/>
+                        <outlet property="viewTwo" destination="Soo-mH-UrB" id="t1z-rl-UBg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="418" y="322"/>
+        </scene>
+    </scenes>
+</document>
